@@ -1,0 +1,15 @@
+body, #root{
+  margin: 0;
+}
+
+#root{
+  height: 100vh;
+}
+
+#wrapper{
+  margin: 0;
+  outline: 1px solid;
+  height: 100%;
+  background: rgb(216, 216, 216);
+  min-height: 10rem;
+}

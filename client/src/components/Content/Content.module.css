@@ -1,0 +1,122 @@
+#Content{
+    margin: 1rem 5rem 0rem ;
+    background: whitesmoke;
+    min-height: 8rem;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+
+#Library{
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 2rem;
+}
+
+#Library > span{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2rem;
+    cursor: pointer;
+}
+
+#Library .set-border{
+    border-bottom: 2px solid black;
+}
+
+#OtherThing{
+    padding-top: 5px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+    gap: 1rem;
+}
+
+#OtherThing > button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 0;
+    gap: 5px;
+    padding: 5px 0;
+    outline: 1px solid #4288c9;
+    cursor: pointer;
+}
+
+#Books{
+    width: 100%;
+    margin: 1rem 0.2rem 0 0.2rem;
+    display: grid;
+    gap: 0.5rem;
+}
+
+.book-wrap{
+    display: flex;
+    flex-direction: column;
+    border: 0px solid;
+    box-shadow: 2px 3px 6px grey;
+    border-radius: 5px;
+    overflow: hidden;
+    gap: 0px;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: Calibri;
+}
+
+.book-wrap > span{
+    outline: 1px solid black;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+}
+
+.book-wrap > span > span{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Books a{
+    text-decoration: none;
+    color: black;
+}
+
+#Books a:hover{
+    text-decoration: underline;
+}
+
+#Books p{
+    margin: 5px 0;
+}
+
+.book{
+    display: flex;
+    gap: 5px;
+}
+
+#Books .book-image{
+    width: 100px;
+    height: auto;
+}
+
+@media (min-width: 48rem) {
+    #Books{
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .book-wrap a{
+        white-space: normal;
+        height: 40px;
+        font-size: 14px;
+        font-weight: 700;
+        display: inline-block;
+        overflow: hidden;
+        font-family: 'Trebuchet MS';
+    }
+}

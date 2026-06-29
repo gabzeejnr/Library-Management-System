@@ -1,0 +1,38 @@
+{
+    "buttons": [
+        {
+            "id": "All",
+            "label": "All Button",
+            "icon": "faInfinity"
+        },
+        {
+            "id": "Reading",
+            "label": "Reading Button",
+            "icon": "faBookOpen"
+        },
+        {
+            "id": "Read Later",
+            "label": "Read Later Button",
+            "icon": "faClockRotateLeft"
+        },
+        {
+            "id": "Completed",
+            "label": "Completed Button",
+            "icon": "faCheckDouble"
+        },{
+            "id": "Trash",
+            "label": "Trash Button",
+            "icon": "faTrash"
+        },
+        {
+            "id": "Config",
+            "label": "Configuration Button",
+            "icon": "faGear"
+        },
+        {
+            "id": "Filter",
+            "label": "Filter Button",
+            "icon": "faFilter"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "books": [
+        {
+            "title": "Fantasy: I'm Already an Emperor, But the System Actually Asked Me to Accept a Disciple",
+            "image": "https://wtr-lab.com/api/v2/img?src=s3%3A%2F%2Fwtrimg%2Fseries%2F3sO2aWRUxQY4Ls2rx1kVyr7mMuekras3l47l9fzNilQ.png",
+            "href": "#"
+        },
+        {
+            "title": "I let you cultivate immortality, not bring harm to the immortal cultivation world!",
+            "image": "https://wtr-lab.com/api/v2/img?src=s3%3A%2F%2Fwtrimg%2Fseries%2FA8pnAggvyGTdZ8kz1gkCWg.jpeg",
+            "href": "#"
+        },
+        {
+            "title": "Simulate the Cultivation of Immortals, Starting from Defeating the Hehuan Sect",
+            "image": "https://wtr-lab.com/api/v2/img?src=s3%3A%2F%2Fwtrimg%2Fseries%2F56W8g-xGHyE3B03w6JxYjuoE02oS10oNE_oB2C3zR8E.jpeg",
+            "href": "#"
+        },
+        {
+            "title": "Primordial Era: I am the Second Demon Ancestor, I Will Remain Steadfast and Not Venture Out",
+            "image": "https://wtr-lab.com/api/v2/img?src=s3%3A%2F%2Fwtrimg%2Fseries%2FE0eek_awtcpQharj4eEyAWFp6X5GhDpT-aSgXN6761g.jpeg",
+            "href": "https://wtr-lab.com/en/novel/51863/primordial-era-i-am-the-second-demon-ancestor-i-will-remain-steadfast-and-not-venture-out"
+        },
+        {
+            "title": "XXX",
+            "image": "../assets/hero.png"
+        }
+    ]
+}
