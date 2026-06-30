@@ -1,0 +1,13 @@
+#Sidebar{
+    min-height: 100vh;
+    max-width: 10rem;
+    outline: 1px solid purple;
+    color: var(--text);
+    background: purple;
+    font-family: var(--font);
+    padding: 1rem 0 0 40px;
+}
+
+#Sidebar > h2{
+    margin: 0;
+}
