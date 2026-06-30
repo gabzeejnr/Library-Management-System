@@ -1,15 +1,19 @@
-body, #root{
-  margin: 0;
+:root {
+  --background: #f8fafc;
+  --lightgrey: whitesmoke;
+  --primary: #2563eb;
+  --text: #1f2937;
+  --success: #16a34a;
+  --warning: #f59e0b;
+  --danger: #dc2626;
+  --font: 'Poppins';
 }
 
-#root{
-  height: 100vh;
-}
-
-#wrapper{
+#wrapper {
   margin: 0;
   outline: 1px solid;
   height: 100%;
-  background: rgb(216, 216, 216);
+  background: var(--background);
   min-height: 10rem;
+  font-family: p;
 }
