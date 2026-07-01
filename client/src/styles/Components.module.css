@@ -85,18 +85,14 @@
     box-shadow: inset 0 0 10px 1px black;
 }
 
-#Sidebar button{
+#Sidebar a{
     font-family: Poppins;
+    text-decoration: none;
     cursor: pointer;
     border-radius: 5px;
     color: white;
     background: transparent;
     font-size: 1.2rem;
-}
-
-#Sidebar button.active{
-    color: white;
-    background: blue;
 }
 
 .links{
@@ -146,6 +142,32 @@
 /*----- DASHBOARD -----*/
 #Dashboard{
     margin-top: 1rem;
-    width: 80%;
-    outline: 1px solid red;
+    width: 98%;
+}
+
+.stat-holder{
+    margin-left: 1rem;
+    display: flex;
+    gap: 5vw;
+}
+
+.stat-card{
+    border: 2px solid;
+    box-shadow: 0 3px 5px 0px rgb(199, 199, 199);
+    border-radius: 10px;
+    width: 10rem;
+    transition: transform 0.3s;
+}
+
+.stat-card:hover{
+    transform: translateY(-5px);
+}
+
+.stat-card > p{
+    text-align: center;
+}
+
+.stat-card .title {
+    font-size: 1rem;
+    font-family: monospace;
 }
