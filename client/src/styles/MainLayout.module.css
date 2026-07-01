@@ -1,0 +1,12 @@
+.body-wrap{
+    margin: 0;
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+}
+
+.body-wrap main{
+    margin-top: 1rem;
+    width: 70%;
+    outline: 1px solid green
+}

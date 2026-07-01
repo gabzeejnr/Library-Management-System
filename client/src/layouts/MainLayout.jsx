@@ -1,7 +1,19 @@
-export default function MainLayout(){
+import React from 'react';
+import Navbar from "../components/Navbar/Navbar";
+import SideBar from '../components/Sidebar/Sidebar';
+import styles from '../styles/MainLayout.module.css';
+
+export default function MainLayout({children}){
     return(
-        <section id="main-layout">
-            
-        </section>
+        <>
+            <Navbar />
+            <div className={styles["body-wrap"]}>
+                <SideBar />
+
+                <main>
+                    {children}
+                </main>
+            </div>
+        </>
     )
 }

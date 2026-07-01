@@ -1,16 +1,13 @@
-import Dashboard from "../components/Dashboard/Dashboard"
-import Navbar from "../components/Navbar/Navbar"
-import SideBar from "../components/Sidebar/SideBar"
-import styles from '../styles/Home.module.css'
+import React from 'react';
+import MainLayout from '../layouts/MainLayout';
+import Dashboard from '../components/Dashboard/Dashboard';
 
 export default function Home() {
     return(
         <>
-            <Navbar />
-            <div className={styles["body-wrap"]}>
-                <SideBar />
+            <MainLayout>
                 <Dashboard />
-            </div>
+            </MainLayout>
         </>
     )
 }
