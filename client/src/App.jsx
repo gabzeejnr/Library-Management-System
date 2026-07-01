@@ -1,14 +1,17 @@
 import React, { useState } from 'react';
-import './App.css';
-import Sidebar from './components/Sidebar/Sidebar.jsx';
+import { BrowserRouter } from "react-router-dom";
+import WebRoutes from './routes.jsx';
+import './styles/App.css';
 import "@fontsource/poppins";
 
 function App() {
 
   return(
-    <div id='wrapper'>
-      <Sidebar />
-    </div>
+    <>
+      <BrowserRouter>
+        <WebRoutes />
+      </BrowserRouter>
+    </>
   )
 }
 

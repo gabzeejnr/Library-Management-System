@@ -1,0 +1,31 @@
+#ErrorPage{
+    background: var(--background);
+    margin: 0;
+    width: 100%;
+    min-height: 30rem;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+#ErrorPage > .cry-emoji{
+    font-size: 10rem;
+}
+
+#ErrorPage > .small-error-text{
+    font-family: Poppins;
+}
+
+#ErrorPage > button{
+    background: var(--primary);
+    border: 1px solid var(--primary);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* @media (min-height: 490px) {
+    
+} */
